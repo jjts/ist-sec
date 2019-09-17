@@ -5,7 +5,11 @@
 * Computer Electronics
 * Repository of materials
 
-### Recommended OS###
+### Enter your student repository here: ###
+
+https://forms.gle/Ffnbq27XwSSnbhXm9
+
+### Recommended OS ###
 
 Linux, the following flavors have been tested successfully (L)Ubuntu, Debian and Centos
 
@@ -18,6 +22,15 @@ https://try.github.io
 ### PicoVersat ###
 
 git clone https://jjts@bitbucket.org/jjts/ecomp.git
+
+PicoVersat C compiler by Gonçalo Santos (master thesis)
+https://bitbucket.org/goncalosantos0/lcc/src/master/
+
+
+### PicoRV32 ###
+
+A small Verilog RISC-V processor
+https://github.com/cliffordwolf/picorv32
 
 
 ### Icarus Verilog ###
