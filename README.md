@@ -5,7 +5,7 @@
 * Computer Electronics
 * Repository of materials
 
-### Enter your student repository here: ###
+### Students' repositories: ###
 
 https://forms.gle/Ffnbq27XwSSnbhXm9
 
@@ -19,9 +19,12 @@ Linux, the following flavors have been tested successfully (L)Ubuntu, Debian and
 https://try.github.io
 
 
+### Resolved Exercices ####
+https://drive.google.com/open?id=1WJD7ufAjIWL5jOcqaquQn_EnzZuM6GYRjE7QjCuhFGU
+
 ### PicoVersat ###
 
-git clone https://jjts@bitbucket.org/jjts/ecomp.git
+git clone https://jjts@bitbucket.org/jjts/picoversat.git
 
 PicoVersat C compiler by Gonçalo Santos (master thesis)
 https://bitbucket.org/goncalosantos0/lcc/src/master/
@@ -45,3 +48,8 @@ Follow the instructions contained in the repository itself to install Icarus Ver
 ### Install Xilinx ISE ###
 
 https://www.youtube.com/watch?v=meO-b6Ib17Y
+
+
+### FPGA Board Manual ###
+
+https://reference.digilentinc.com/reference/programmable-logic/basys-2/reference-manual
