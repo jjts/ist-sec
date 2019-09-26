@@ -1,0 +1,54 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Instituto Superior Tecnico 
+// Electronica II
+// Trabalho sobre filtro digital FIR
+// Instrucoes basicas para utilizacao do program ISE da Xilinx // (valido para as versoes 14.x)
+// Autor: Jose T. de Sousa
+//////////////////////////////////////////////////////////////////////////////////
+
+1. Open ISE Project Navigator.
+
+2. Select File->New Project.
+
+3. Enter Project Name and Location; click Next.
+
+4. Select Family=Spartan3E, Device=XC3S100E, Package=CP132, Speed=-4, Preferred Language=Verilog; click Next; click Finish.
+
+5. Select Project->Add Source; select all your .v files and the .ucf file; click Open.
+
+6. On top of the Design window, select Simulation.
+
+7. Select the testbench file.
+
+8. In the Processes window expand ISim Simulator and double click on Behavioral Simulation.
+
+9. If the simulator will not start, check the Console window for errors, click on the file links to open the respective files; fix the errors and go to step 8.
+
+10. If the simulator starts but issues errors in its Console window, fix the errors and press the Relaunch button; repeat as necessary.
+
+11. If the simulator issues the message "Finished circuit initialization process", press the Run All button.
+
+12. You can select modules and drag the respective signals into the waveform window for visualization; then relaunch the simulator.
+
+13. If the simulator stops at the $finish statement, the simulation is done.
+
+14. On top of the Design window, select Implementation.
+
+15. Right click on the module you wish to implement and select Set as Top Module.
+
+16. In the Processes window double click on Generate Programming File.
+
+17. In the Design Summary tab, explore the various reports produced by the tools, in order to extract the information you need.
+
+18. Connect the FPGA board to your PC using the provided USB cable; switch on the board.
+
+19. In the Processes window, double click on Configure Target Device; click OK.
+
+20. Double click on Boundary Scan in the iMPACT Flows window; rigth click in the Bounday Scan tab and select Initialize Chain; click Yes.
+
+21. Select the FPGA configuration file (.bit file) in your ISE project directory; click No; click Cancel; click Cancel.
+
+22. Right click on the FPGA and select Program; the FPGA should be now ready to use.
+
+Have Fun!
+
