@@ -62,8 +62,8 @@ module add_shft_mul_tb ();
       clk = 1;
       start = 0;
 
-      a=100;
-      b = 65;
+      a=8'hfe;
+      b = 8'hfe;
 
       @(posedge clk) #1 rst=0;
 
