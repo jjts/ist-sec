@@ -22,6 +22,14 @@ https://try.github.io
 ### Resolved Exercices ####
 https://drive.google.com/open?id=1WJD7ufAjIWL5jOcqaquQn_EnzZuM6GYRjE7QjCuhFGU
 
+### Tests and Exams from Previous Years and their Resolution ####
+2017: https://drive.google.com/drive/folders/1cD5mR9BU37vWXicUqDl7bf1qbFV0xx73?usp=sharing
+2018: https://drive.google.com/open?id=1CwoneR6NRtO1erlO246uxGES9B5yKM9L
+
+
+
+
+
 ### PicoVersat ###
 
 git clone https://jjts@bitbucket.org/jjts/picoversat.git
