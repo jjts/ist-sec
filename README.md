@@ -5,6 +5,11 @@
 * Computer Electronics
 * Repository of materials
 
+### Students' marks: ###
+
+https://docs.google.com/spreadsheets/d/137JtyKGYXPpp4ar1BVDMRGQrZNbuyiwoktg7s3TBmSQ/edit?usp=sharing
+
+
 ### Students' repositories: ###
 
 https://forms.gle/Ffnbq27XwSSnbhXm9
