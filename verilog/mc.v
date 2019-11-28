@@ -1,62 +1,42 @@
 `timescale 10ns/10ps
 
 module mc (
-           inout bl,
-           inout blb,
+           inout c,
+           inout cb,
            input sw
            );
 
-   reg           bl_reg, blb_reg;
+   reg           c_reg, cb_reg;
 
-   initial bl_reg = 1'b1;
-   
-   
    always begin
       #1;      
       if(sw) begin
-         bl_reg = bl;
-         blb_reg = blb;
+         c_reg = c;
+         cb_reg = cb;
       end else begin
-         blb_reg = ~bl_reg;
-         bl_reg = ~blb_reg;
+         cb_reg = ~c_reg;
+         c_reg = ~cb_reg;
       end
    end
 
-   assign bl = bl_reg;
-   assign blb = blb_reg;
+   assign (weak0, weak1) c = c_reg;
+   assign (weak0, weak1) cb = cb_reg;
 
-endmodule // mcb
+endmodule
 
 module mc_tb;
 
    wire bl;
    wire blb;
 
-   wire cl;
-   wire clb;
-
    reg  drive_bl;
    reg  drive_blb;
 
    reg  sw;
+      
+   assign bl = drive_bl;
+   assign blb = drive_blb;
    
-   wire dl, dlb;
-   
-   assign  bl = sw? 
-                ((drive_bl == 1'bz)? cl : drive_bl):
-                1'bz;
-   
-   assign  blb = sw? 
-                ((drive_blb == 1'bz)? clb : drive_blb):
-                1'bz;
- 
-   assign  cl = sw? 
-                ((drive_bl == 1'bz)? cl : drive_bl):
-                1'bz;
-   
-   assign  clb = sw? 
-                ((drive_blb == 1'bz)? clb : drive_blb):
-                1'bz;
       
    initial begin
       $dumpfile("dump.vcd");
@@ -92,9 +72,9 @@ module mc_tb;
    end
   
    
-   mc mc0 (
-           .bl(cl),
-           .blb(clb),
+   mc  mc0 (
+           .c(bl),
+           .cb(blb),
            .sw(sw)
            );
 
