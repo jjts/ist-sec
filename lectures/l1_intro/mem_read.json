@@ -1,0 +1,41 @@
+
+{
+    "signal": [
+        {
+            "data": [],
+            "name": "enable",
+            "wave": "01....0..."
+        },
+        {
+            "data": [
+                "a0"
+            ],
+            "name": "address",
+            "wave": "x=....x..."
+        },
+        {
+            "data": [
+                "wd0",
+                "wd1"
+            ],
+            "name": "write data",
+            "wave": "x........."
+        },
+        {
+            "data": [],
+            "name": "write",
+            "wave": "x0....x..."
+        },
+        {
+            "data": ["rd0","rd1", "rd2"],
+            "name": "rdata",
+            "wave": "x...=.x..."
+        },
+       
+       
+        
+    ],
+    "config": {
+        "hscale": 1
+    }
+}
