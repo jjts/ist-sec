@@ -7,9 +7,11 @@
 
 ### Students' marks: ###
 
+https://docs.google.com/spreadsheets/d/1OxR6LkJ-_FOZlpFl6zh-RJ8bci5A7A-fDcjCE-cqpPo/edit?usp=sharing
 
 ### Students' repositories: ###
 
+https://forms.gle/bBY3TDdQtdFLWrZB7
 
 ### Recommended OS ###
 
@@ -30,10 +32,6 @@ https://github.com/cliffordwolf/picorv32
 ### Icarus Verilog ###
 
 git clone https://github.com/steveicarus/iverilog
-
-``` git reset --hard v10_3```
-
-Follow the instructions contained in the repository itself to install Icarus Verilog
 
 
 ### Install Xilinx ISE ###
