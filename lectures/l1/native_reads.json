@@ -4,12 +4,12 @@
         {
             "data": [],
             "name": "clk",
-            "wave": "P........."
+            "wave": "P.........."
         },
         {
             "data": [],
             "name": "valid",
-            "wave": "01......0."
+            "wave": "01......0.."
         },
         {
             "data": [
@@ -18,7 +18,7 @@
                 "a2"
             ],
             "name": "address",
-            "wave": "x===....x."
+            "wave": "x===....x.."
         },
         {
             "data": [
@@ -26,22 +26,22 @@
                 "wd1"
             ],
             "name": "wdata",
-            "wave": "x........."
+            "wave": "x.........."
         },
         {
             "data": ["0"],
             "name": "wstrb",
-            "wave": "=........."
+            "wave": "=.........."
         },
         {
             "data": ["rd0","rd1", "rd2"],
             "name": "rdata",
-            "wave": "x.==x...=x"
+            "wave": "x.==x...=x."
         },
         {
             "data": [],
             "name": "ready",
-            "wave": "1...0...1."
+            "wave": "0..1.0...10"
         },
        
         
